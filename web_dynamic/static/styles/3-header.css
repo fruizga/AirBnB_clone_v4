@@ -1,11 +1,24 @@
 header {
-    background: white;
+    background-color: #FFF;
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
+    background-image: url("https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/logo.png");
+    /* background-image: url("../images/logo.png"); */
+    background-position: 20px;
+    background-repeat: no-repeat;
 }
-header .logo {
-    background: url("../images/logo.png") no-repeat;
-    left: 20px;
-    height: 100%;
+#api_status{
+    float: right;
+    margin-right: 30px;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#api_status.available{
+    background-color: #ff545f;
 }
